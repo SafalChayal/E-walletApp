@@ -1,0 +1,269 @@
+!SESSION 2024-12-01 17:33:08.475 -----------------------------------------------
+eclipse.buildId=4.21.0.202312011804
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data C:\Users\Dell\Downloads\jbdl4-main\jbdl4-main\Wallet_System_Microservices -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-12-01 17:33:10.523
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2024-12-01 17:33:17.190
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-12-01 17:33:17.190
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-01 17:33:24.018
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:34:19.348
+!MESSAGE Classpath changed for project: 19-microsevice-product-catalogue
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:34:25.704
+!MESSAGE Classpath changed for project: 19-microsevice-product-catalogue
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:34:25.706
+!MESSAGE Boot project ADDED: 19-microsevice-product-catalogue
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:34:25.707
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:34:25.754
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-12-01 17:34:25.807
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+D:\sts-4.21.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre\bin\javaw.exe
+-cp
+D:\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\classes;D:\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:D:\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/Dell/Downloads/jbdl4-main/jbdl4-main/Wallet_System_Microservices/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1733054665805
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:34:25.808
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-12-01 17:34:25.819
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 5540
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:34:31.854
+!MESSAGE Classpath changed for project: 20-microservice-order-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:34:31.856
+!MESSAGE Boot project ADDED: 20-microservice-order-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:34:34.173
+!MESSAGE Classpath changed for project: 20-microservice-order-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:42:30.936
+!MESSAGE Classpath changed for project: 21-eureka-naming-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:42:33.522
+!MESSAGE Classpath changed for project: 21-eureka-naming-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:42:33.529
+!MESSAGE Boot project ADDED: 21-eureka-naming-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:42:48.341
+!MESSAGE Classpath changed for project: 22-api-gate-way
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:42:48.342
+!MESSAGE Boot project ADDED: 22-api-gate-way
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:42:51.737
+!MESSAGE Classpath changed for project: 22-api-gate-way
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:43:04.577
+!MESSAGE Classpath changed for project: 23-oauth-github-integeration
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:43:04.581
+!MESSAGE Boot project ADDED: 23-oauth-github-integeration
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:43:07.641
+!MESSAGE Classpath changed for project: 23-oauth-github-integeration
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:43:26.879
+!MESSAGE Classpath changed for project: 24-identity-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:43:26.880
+!MESSAGE Boot project ADDED: 24-identity-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:43:27.465
+!MESSAGE Classpath changed for project: 24-identity-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:43:49.230
+!MESSAGE Classpath changed for project: 25-gate-way-security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:43:49.231
+!MESSAGE Boot project ADDED: 25-gate-way-security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:43:51.109
+!MESSAGE Classpath changed for project: 25-gate-way-security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:44:08.874
+!MESSAGE Classpath changed for project: 19-microsevice-product-catalogue
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:44:08.875
+!MESSAGE Boot project REMOVED: 19-microsevice-product-catalogue
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:44:08.876
+!MESSAGE Classpath changed for project: microsevice-product-catalogue
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:44:11.668
+!MESSAGE Classpath changed for project: microsevice-product-catalogue
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:44:11.688
+!MESSAGE Boot project ADDED: microsevice-product-catalogue
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:46:17.605
+!MESSAGE Classpath changed for project: 25-gate-way-security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:46:17.607
+!MESSAGE Boot project REMOVED: 25-gate-way-security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:46:17.609
+!MESSAGE Classpath changed for project: gate-way-security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:46:21.100
+!MESSAGE Classpath changed for project: gate-way-security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:46:21.101
+!MESSAGE Boot project ADDED: gate-way-security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:47:42.503
+!MESSAGE Classpath changed for project: 24-identity-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:47:42.504
+!MESSAGE Boot project REMOVED: 24-identity-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:47:42.505
+!MESSAGE Classpath changed for project: identity-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:47:47.155
+!MESSAGE Classpath changed for project: identity-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:47:47.177
+!MESSAGE Boot project ADDED: identity-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:47:47.310
+!MESSAGE Classpath changed for project: identity-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:48:26.343
+!MESSAGE Classpath changed for project: 23-oauth-github-integeration
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:48:26.343
+!MESSAGE Boot project REMOVED: 23-oauth-github-integeration
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:48:26.344
+!MESSAGE Classpath changed for project: oauth-github-integeration
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:48:28.582
+!MESSAGE Classpath changed for project: oauth-github-integeration
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:48:28.597
+!MESSAGE Boot project ADDED: oauth-github-integeration
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:48:28.658
+!MESSAGE Classpath changed for project: oauth-github-integeration
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:48:59.669
+!MESSAGE Classpath changed for project: 22-api-gate-way
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:48:59.670
+!MESSAGE Boot project REMOVED: 22-api-gate-way
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:48:59.671
+!MESSAGE Classpath changed for project: api-gate-way
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:49:02.539
+!MESSAGE Classpath changed for project: api-gate-way
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:49:02.540
+!MESSAGE Boot project ADDED: api-gate-way
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:49:35.959
+!MESSAGE Classpath changed for project: 21-eureka-naming-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:49:35.960
+!MESSAGE Boot project REMOVED: 21-eureka-naming-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:49:35.961
+!MESSAGE Classpath changed for project: eureka-naming-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:49:38.876
+!MESSAGE Classpath changed for project: eureka-naming-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:49:38.895
+!MESSAGE Boot project ADDED: eureka-naming-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:49:39.041
+!MESSAGE Classpath changed for project: eureka-naming-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:51:16.638
+!MESSAGE Classpath changed for project: 20-microservice-order-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:51:16.642
+!MESSAGE Boot project REMOVED: 20-microservice-order-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:51:16.643
+!MESSAGE Classpath changed for project: microservice-order-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:51:19.546
+!MESSAGE Classpath changed for project: microservice-order-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:51:19.564
+!MESSAGE Boot project ADDED: microservice-order-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 17:51:19.666
+!MESSAGE Classpath changed for project: microservice-order-service
+
+!ENTRY org.eclipse.jface 2 0 2024-12-01 17:55:09.962
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-12-01 17:55:09.962
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
