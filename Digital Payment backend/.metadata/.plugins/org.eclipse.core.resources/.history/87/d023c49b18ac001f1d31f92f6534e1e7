@@ -1,0 +1,5 @@
+package com.microservice.wallet_user.repository;
+
+public interface UserRepository {
+
+}

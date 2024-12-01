@@ -1,0 +1,34 @@
+package com.microservice.notification.service;
+
+import org.apache.kafka.clients.consumer.ConsumerRecord;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.kafka.annotation.KafkaListener;
+import org.springframework.kafka.core.KafkaTemplate;
+import org.springframework.stereotype.Service;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.microservice.notification.constants.AppConstants;
+import com.microservice.notification.dto.UserDto;
+
+@Service
+public class KafkaMailService {
+	
+	private KafkaTemplate<String, String> kafka;
+	
+	@Autowired
+	private ObjectMapper mapper;
+	@KafkaListener( topics = {AppConstants.NEW_USER}, groupId = "my-consumer-group")
+	private void consumeMessages(ConsumerRecord<String, String> consumer) throws JsonMappingException, JsonProcessingException {
+		
+		String key = consumer.key();
+		String json = consumer.value();
+		long timestamp = consumer.timestamp();
+		System.out.println("Recieved" + json);
+		UserDto userDto = mapper.readValue(json, UserDto.class);
+		
+		
+		
+	}
+}

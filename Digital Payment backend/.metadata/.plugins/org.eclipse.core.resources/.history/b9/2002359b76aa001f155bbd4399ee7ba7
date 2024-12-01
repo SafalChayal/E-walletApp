@@ -1,0 +1,10 @@
+spring.application.name=wallet-user
+spring.datasource.url=jdbc:postgresql://localhost:5432/wallet-user
+spring.datasource.username=postgres
+spring.datasource.password=postgres
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+# Hibernate Configuration
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update

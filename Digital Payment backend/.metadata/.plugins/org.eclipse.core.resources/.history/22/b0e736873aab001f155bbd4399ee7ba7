@@ -1,0 +1,5 @@
+package com.microservice.wallet_user.entity;
+
+public class User {
+
+}

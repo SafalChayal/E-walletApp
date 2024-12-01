@@ -1,0 +1,5 @@
+package com.microservice.notification.constants;
+
+public interface AppConstants {
+
+}

@@ -1,0 +1,30 @@
+package com.microservice.wallet_user.entity;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import lombok.Data;
+
+@Entity
+@Data
+@Table(name = "Accounts")
+public class User {
+	@Id
+	@GeneratedValue
+	private int userId;
+	private String userName;
+	@JsonIgnore
+	private String password;
+	@Column(unique = true)
+	@Email(message = "Please provide valid mail Id")
+	@NotBlank(message = "Email cannot be blank")
+	private String email;
+	private double walletBalance;
+	
+}

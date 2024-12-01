@@ -267,3 +267,30 @@ Binding(CTRL+SHIFT+C,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 18:09:14.002
+!MESSAGE Classpath changed for project: wallet-user
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 18:09:21.825
+!MESSAGE Classpath changed for project: wallet-user
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 18:09:21.847
+!MESSAGE Boot project ADDED: wallet-user
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 18:09:22.038
+!MESSAGE Classpath changed for project: wallet-user
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 18:09:22.879
+!MESSAGE Classpath changed for project: wallet-user
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 18:10:40.612
+!MESSAGE Classpath changed for project: notification
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 18:10:41.352
+!MESSAGE Classpath changed for project: notification
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 18:10:41.372
+!MESSAGE Boot project ADDED: notification
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-01 18:10:42.216
+!MESSAGE Classpath changed for project: notification

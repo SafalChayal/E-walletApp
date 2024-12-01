@@ -1,0 +1,6 @@
+package com.microservice.wallet_user.constants;
+
+public interface AppContants {
+	
+	String NEW_USER = "NEW_USER";
+}

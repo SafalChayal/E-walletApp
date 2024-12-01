@@ -1,0 +1,20 @@
+package com.microservice.wallet_user.entity;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.validation.constraints.Email;
+import lombok.Data;
+
+@Entity
+@Data
+public class User {
+	@Id
+	private int userId;
+	private String userName;
+	@Column(unique = true)
+	@Email(message = "Please provide valid mail Id")
+	private String email;
+	private double walletBalance;
+	
+}

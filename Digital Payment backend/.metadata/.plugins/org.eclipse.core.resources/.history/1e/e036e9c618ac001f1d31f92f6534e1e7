@@ -1,0 +1,30 @@
+package com.microservice.wallet_user.service;
+
+import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+
+import com.microservice.wallet_user.dto.UserDto;
+import com.microservice.wallet_user.entity.User;
+import com.microservice.wallet_user.repository.UserRepository;
+
+
+
+
+public class UserServiceImpl implements UserService {
+	
+	@Autowired
+	private UserRepository userRepo;
+	@Value("${promo.amount}")
+	private float promoAmount;
+	@Override
+	public User registerUser(UserDto userDto) {
+		// TODO Auto-generated method stub
+		User user = new User();
+		BeanUtils.copyProperties(userDto, user);
+		user.setWalletBalance(promoAmount);
+		User userSaved = userRepo.save(user);
+		return null;
+	}
+	
+}
